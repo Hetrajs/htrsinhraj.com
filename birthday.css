@@ -174,13 +174,13 @@ body
 
 
 @media (max-width: 425px) {
-    #logo {
-        position: relative;
-        right: 0;
-        width: 333px;
-        top: 375px;
-        margin-left: -2.9rem;
-    }
+   #logo {
+    position: relative;
+    right: 0;
+    width: 398px;
+    top: 375px;
+    margin-left: 0.1rem;
+}
     
 }
 
