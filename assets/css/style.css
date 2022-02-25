@@ -52,7 +52,7 @@
 {
     font-size: 1.25rem;
     cursor: pointer;
-    transition: .3s;
+    transition: .1s;
 }
 
 .change-theme:hover
