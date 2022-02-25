@@ -74,6 +74,18 @@ body.light-theme
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, .1);
 }
 
+.light-theme .home_greeting{
+    color: #fff;
+}
+
+.light-theme .home_name{
+    color: #fff;
+}
+
+.light-theme .home_education{
+    color: blanchedalmond;
+}
+
 .light-theme .nav_menu
 {
     background-color: hsla(var(--second-hue),32%, 190%, .8);
@@ -1144,8 +1156,7 @@ img{
 
 @media screen and (max-width: 576px) {
     .container{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 2rem;
     }
 
     .section_subtitle{
@@ -1160,7 +1171,7 @@ img{
     }
     
     .home_handle{
-        margin-top: 9rem;
+        margin-top: 10rem;
     }
 
     .about_info{
@@ -1202,7 +1213,7 @@ img{
         width: 295px;
     }
     
-    .work_container{
+    .grid{
         grid-template-columns: repeat(2,1fr);
         justify-content: center;
         
@@ -1219,7 +1230,7 @@ img{
     }
 }
 
-@media screen and(min-width: 767px){
+/*@media screen and(min-width: 767px){
     
     .container{
         margin-left: 53rem;
