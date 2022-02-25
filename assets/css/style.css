@@ -1156,6 +1156,10 @@ img{
         right: 0;
         margin: 0 auto;
     }
+    
+    .home_handle{
+        margin-top: 3rem;
+    }
 
     .about_info{
         grid-template-columns: repeat(3,1fr);
