@@ -1155,8 +1155,21 @@ img{
 
 
 @media screen and (max-width: 576px) {
+    
+    .light-theme .home_greeting{
+    color: #fff;
+}
+
+    .light-theme .home_name{
+    color: #fff;
+}
+
+    .light-theme .home_education{
+    color: blanchedalmond;
+}
+    
     .container{
-        margin-left: 2rem;
+        margin-right: 1rem;
     }
 
     .section_subtitle{
