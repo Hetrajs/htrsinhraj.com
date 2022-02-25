@@ -393,6 +393,7 @@ img{
     justify-self: center;
     width: 180px;
     height: 195px;
+    margin-top: 3rem;
     background: linear-gradient(transparent,
             /* hsla(var(--first-hue),var(--sat), var(--lig), -1),
                 hsla(var(--first-hue),var(--sat), var(--lig), .3) */
@@ -1158,7 +1159,7 @@ img{
     }
     
     .home_handle{
-        margin-top: 5.5rem;
+        margin-top: 7rem;
     }
 
     .about_info{
