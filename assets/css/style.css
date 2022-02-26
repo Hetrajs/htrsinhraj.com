@@ -1232,12 +1232,7 @@ img{
         width: 295px;
     }
     
-    .grid{
-        grid-template-columns: repeat(2,1fr);
-        justify-content: center;
-        
-    }
-
+    
     .contact_info{
         grid-template-columns: 300px;
         justify-content: center;
