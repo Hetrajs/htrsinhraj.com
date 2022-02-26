@@ -234,6 +234,11 @@ img{
     gap: 1.25rem;
 }
 
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.25rem;
+}
 .main
 {
     overflow: hidden;
@@ -1170,7 +1175,7 @@ img{
     
     .container{
         margin-left: 1rem;
-        margin-right: 1rem;
+        
     }
 
     .section_subtitle{
