@@ -1169,7 +1169,7 @@ img{
 }
     
     .container{
-        margin-right: 1rem;
+        margin-left: 3rem;
     }
 
     .section_subtitle{
@@ -1243,7 +1243,7 @@ img{
     }
 }
 
-/*@media screen and(min-width: 767px){
+@media screen and(min-width: 767px){
     
     .container{
         margin-left: 53rem;
