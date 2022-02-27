@@ -1215,8 +1215,9 @@ img{
     }
 
     .services_modal-content{
-        width: 400px;
+        width: 350px;
         padding: 4.5rem 2.5rem 2.5rem;
+        justify-content: center;
     }
 
     .services_modal-description{
