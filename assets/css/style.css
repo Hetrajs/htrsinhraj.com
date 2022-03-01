@@ -1153,10 +1153,10 @@ img{
 
     
 
-}
+}*/
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 425px) {
     
     .light-theme .home_greeting{
     color: #fff;
