@@ -220,7 +220,7 @@ img{
 
 .container
 {
-    max-width: 968px;
+    max-width: 1500px;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
@@ -1173,6 +1173,7 @@ img{
     }
     
     .container{
+     max-width: 1000px;
      margin-left: 1rem;   
      margin-right: 1rem;
      text-align: center;
