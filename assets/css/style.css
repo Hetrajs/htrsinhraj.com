@@ -220,13 +220,9 @@ img{
 
 .container
 {
-    max-width: 1000px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid
@@ -1175,11 +1171,10 @@ img{
     }
     
     .container{
-     max-width: 1000px;
-     margin-left: 1rem;   
-     margin-right: 1rem;
-     text-align: center;
-        
+     
+     margin-left: auto;   
+     margin-right: auto;
+     
     }
 
     .section_subtitle{
