@@ -220,10 +220,12 @@ img{
 
 .container
 {
-    max-width: 1500px;
+    max-width: 1000px;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
