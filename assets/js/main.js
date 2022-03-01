@@ -134,15 +134,15 @@ const sr = ScrollReveal({
   delay: 400,
 })
 
-/*sr.reveal('.home_greeting', {delay:1200, origin:'bottom'})
+sr.reveal('.home_greeting', {delay:1200, origin:'bottom'})
 sr.reveal('.home_name', {delay:1400, origin:'bottom'})
-sr.reveal('.home_education', {delay:1600, origin:'bottom'})*/
+sr.reveal('.home_education', {delay:1600, origin:'bottom'})
 sr.reveal('.home_data')
 sr.reveal('.home_handle', {delay: 700})
 sr.reveal('.home_handle, .home_scroll' ,{delay: 700, origin: 'bottom'})
 sr.reveal('.about_container', {delay: 700, origin: 'bottom'})
 sr.reveal('.about_info, .about_description', {delay: 600, origin:'bottom'})
-/*sr.reveal('..about_description', {delay:500, origin:'bottom'})
+sr.reveal('..about_description', {delay:500, origin:'bottom'})
 sr.reveal('.section_subtitle, .section_title', {delay: 200, origin:'bottom'})
 sr.reveal('.button ,.button1',{delay:300, origin:'bottom'})
 sr.reveal('.skills_container ,.skills_content', {delay:600, origin:'bottom'})
