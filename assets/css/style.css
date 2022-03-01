@@ -221,8 +221,9 @@ img{
 .container
 {
     max-width: 968px;
-    margin-left: 12rem;
-    margin-right: -11rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
     
 }
 
@@ -1172,8 +1173,9 @@ img{
     }
     
     .container{
-     margin-left: 5rem;   
-     margin-right: -11rem;
+     margin-left: 1rem;   
+     margin-right: 1rem;
+     text-align: center;
         
     }
 
@@ -1189,7 +1191,7 @@ img{
     }
     
     .home_handle{
-        margin-top: 11rem;
+        margin-top: auto;
     }
 
     .about_info{
