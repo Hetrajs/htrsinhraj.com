@@ -143,7 +143,7 @@ sr.reveal('.home_handle, .home_scroll' ,{delay: 700, origin: 'bottom'})
 sr.reveal('.about_container', {delay: 700, origin: 'bottom'})
 sr.reveal('.about_info, .about_description', {delay: 600, origin:'bottom'})
 sr.reveal('..about_description', {delay:500, origin:'bottom'})
-sr.reveal('.section_subtitle, .section_title', {delay: 200, origin:'bottom'})
+/*sr.reveal('.section_subtitle, .section_title', {delay: 200, origin:'bottom'})*/
 sr.reveal('.button ,.button1',{delay:300, origin:'bottom'})
 sr.reveal('.skills_container ,.skills_content', {delay:600, origin:'bottom'})
 sr.reveal('.services_container, .services_card', {delay:600, origin:'bottom'})
