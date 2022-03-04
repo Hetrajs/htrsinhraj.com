@@ -224,9 +224,7 @@ img{
 .container
 {
     max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin: auto;
     
 }
 
@@ -1172,12 +1170,16 @@ img{
         
     }
     
+    .container{
+        margin:auto;
+    }
+    
     .home_handle
     {
-        margin-top: 3rem;
+        margin-top: 11rem;
     }
 
-    /*.section_subtitle{
+    .section_subtitle{
         margin-top: 3rem;
     }
 
