@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'Azonix';
+    src: url(../Azonix.otf);
+}
+
+@font-face {
+    font-family: 'BankGothic';
+    src: url(../BankGothic\ Regular.ttf);
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root
+{
+    --rale: 'Raleway',sans-serif;
+    --green: #0088a9;
+}
+
+html
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body
+{
+  background-color: #ffdb58;
+}
+ 
+li, a 
+{
+    font-family:'Poppins';
+    font-weight: 200;
+    color: #ededed;
+}
+
+button
+{
+    
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #ededed;
+}
+
+header
+{
+    position: sticky;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 140px;
+    background: #000;
+}
+
+header .title
+{
+    position: absolute;
+    left: 30px;
+    top: -124.6px;
+    transform: translate(0,50%);
+    width: 23%;
+    object-fit: cover;
+}
+
+nav ul
+{
+    list-style: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+ul li.actives a
+{
+    color: #0088a9;
+}
+
+nav ul li a
+{
+    transition: all 0.3s ease 0s;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    color: #a6b2ec;
+}
+
+button
+{
+    margin-left: 55px;
+    margin-right: 50px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+.wrapper
+{
+    font-family: var(--rale);
+    /*background-color: var(--green);*/
+    /*background-color: #000;*/
+    /*background: linear-gradient(120deg, #FF0000 0%, #2400FF 100%), linear-gradient(120deg, #FA00FF 0%, #208200 100%), linear-gradient(130deg, #00F0FF 0%, #000000 100%), radial-gradient(110% 140% at 15% 90%, #ffffff 0%, #1700A4 100%), radial-gradient(100% 100% at 50% 0%, #AD00FF 0%, #00FFE0 100%), radial-gradient(100% 100% at 50% 0%, #00FFE0 0%, #7300A9 80%), linear-gradient(30deg, #7ca304 0%, #2200AA 100%);
+    background-blend-mode: overlay, color, overlay, difference, color-dodge, difference, normal;*/
+    background: linear-gradient(115deg, #000000 0%, #00C508 55%, #000000 100%), linear-gradient(115deg, #0057FF 0%, #020077 100%), conic-gradient(from 110deg at -5% 35%, #000000 0deg, #FAFF00 360deg), conic-gradient(from 220deg at 30% 30%, #FF0000 0deg, #0000FF 220deg, #240060 360deg), conic-gradient(from 235deg at 60% 35%, #0089D7 0deg, #0000FF 180deg, #240060 360deg);
+    background-blend-mode: soft-light, soft-light, overlay, screen, normal;
+    min-height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+    overflow-x: hidden;
+    
+}
+
+.testimonials
+{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 32px;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 20px 6px rgba(0,0,0,0.2);
+}
+
+.image-1
+{
+    width: 30%;
+}
+
+.image-2
+{
+    width: 30%;
+}
+
+.image-3
+{
+    width: 30%;
+}
+
+.image-4
+{
+    width: 30%;
+}
+
+.image-5
+{
+    width: 30%;
+}
+
+.image-6
+{
+    width: 30%;
+}
+
+.image-show-1
+{
+    width: 43%;
+}
+
+.title-1
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title-1 > h2
+{
+    font-weight: 300;
+    color: var(--green);
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    font-size: 32px;
+}
+
+.title-1 h2 span
+{
+    font-weight: 600;
+}
+
+.title-1 > h3
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #b1b1b1;
+    font-weight: 400;
+    position: relative;
+    margin: 24px 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.title-1 h3::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background: #b1b1b1;
+    width: 80px;
+}
+
+
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.client-thumbnil img
+{
+    width: 100%;
+}
+.client-thumbnil
+{
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.clients-tabs
+{
+    margin-bottom: 24px;
+}
+
+.client-intro .client-name
+{
+    color: var(--green);
+}
+
+.client-intro .client-designation
+{
+    color: #b1b1b1;
+}
+
+.client-description
+{
+    display: none;
+}
+
+.client-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.client-item:first-child
+{
+    margin-top: 0;
+}
+
+.client-item:last-child
+{
+    margin-bottom: 0;
+}
+
+.client-item:hover
+{
+    background-color: var(--green);
+}
+
+.client-item:hover .client-intro *
+{
+    color: #fff;
+}
+
+.client-item:active
+{
+    transform: translateY(3px);
+}
+
+.client-item.active
+{
+    background-color: var(--green);
+}
+
+.client-item.active .client-intro *
+{
+    color: #fff;
+}
+
+.show-img img
+{
+    border-radius: 2px;
+}
+
+.show-text > div
+{
+    padding: 12px 0;
+}
+
+.show-text .show-name
+{
+    font-size: 20px;
+    color: var(--green);
+}
+
+.show-text .show-designation
+{
+    color: #b1b1b1;
+}
+
+.show-text .show-description
+{
+    margin: 20px 0;
+    font-weight: 300;
+    color: #686868;
+    line-height: 1.2;
+}
+
+.show-text a
+{
+    background-color: var(--green);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    display: inline-block;
+    margin-top: 8px;
+    text-transform: uppercase;
+    transition: background-color 0.3 ease-in-out;
+}
+
+.show-text a:hover
+{
+    background-color: #18a040;
+}
+
+@media(min-width:768px)
+{
+    .testimonials
+    {
+        padding: 20px 40px;
+    }
+    .content
+    {
+        flex-direction: row;
+    }
+    .clients-list
+    {
+        width: 30%;
+    }
+    .show-info
+    {
+        width: calc(70% - 30px);
+        margin-left: 30px;
+    }
+    .clients-tabs
+    {
+        margin-bottom: 0px;
+    }
+    
+}
+
+@media(min-width:992px)
+{
+    .show-info
+    {
+        display: flex;
+        align-items: flex-start;
+    }
+    .show-img
+    {
+        margin-right: 30px;
+        height: 100%;
+    }
+    .show-img img 
+    {
+        width: 280px;
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+.query
+{
+    position: absolute;
+    top: 68.7rem;
+    width: 100%;
+    min-height:240vh;
+    background-color: #000;
+}
+
+.question > h2
+{
+    position: relative;
+    top: 12rem;
+    color: #fff; 
+    font-family:'Exo',sans-serif; 
+    font-size: 4.5rem;
+    transform: translateX(5%);
+    font-weight: 300;
+    margin: auto;
+}
+
+.answer > h4
+{
+    position: relative;
+    top: 15rem;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    transform: translateX(6%);
+    font-family: 'Exo',sans-serif;
+    margin-right: 5rem;
+    font-weight: 200;
+}
+
+.answer > ul 
+{
+    list-style:circle;
+    position: relative;
+    top: 17rem;
+    font-size: 1.4rem;
+    transform: translateX(7%);
+}
+
+.answer > ul > li
+{
+    color: whitesmoke;
+}
+
+.satisfaction > h2
+{
+    position: relative;
+    top: 30rem;
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 300;
+    font-family: 'Exo',sans-serif;
+    transform: translateX(5%);
+}
+
+.reply > h4
+{
+    position: relative;
+    top: 32rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Exo',sans-serif;
+    font-weight: 200;
+    transform: translateX(5%);
+    margin-right: 5rem;
+}
+
+.team > h2
+{
+    position: relative;
+    top: 45rem;
+    color: #fff;
+    font-size: 4.5rem;
+    font-family: 'Exo',sans-serif;
+    font-weight: 300;
+    transform: translateX(5%);
+}
+
+.ans > h4
+{
+    position: relative;
+    top: 48rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Exo',sans-serif;
+    font-weight: 200;
+    transform: translateX(5%);
+    margin-right: 6.6rem;
+}
